@@ -1,0 +1,52 @@
+body{
+  background-color: lightgrey;
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+nav a:hover{
+  color: white;
+  background-color: #538cdb;
+}
+.active{
+  background-color: #80c2e0;
+}
+main{
+  margin: auto;
+  width: 90%;
+  margin-bottom: 35px;
+}
+a{
+  color: black;
+}
+p{
+  line-height: 1.5;
+  font-size: 17px;
+}
+#lov{
+  width: 40%;
+  float: right;
+  margin: 5px;
+}
+.griddata{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:35px;
+}
+.griddata img{
+  width: 100%;
+}
+iframe{
+  width: 60%;
+}
